@@ -1,0 +1,47 @@
+html {
+    font-size: 10px;
+}
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gameContainer {
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    border: solid red .5rem;
+    width: 120rem;
+    padding: 8rem;
+}
+.settingsContainer {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.sketchContainer {
+    display: flex;
+    flex-wrap: wrap;
+    background: white;
+    height: 70rem;
+    width: 70rem;
+    
+}
+._16sketchBlock {
+    height: 4.375rem;
+    width: 4.375rem;
+    background: white;
+    border: solid grey .05rem;
+}
+._16colorBlock {
+    height: 4.375rem;
+    width: 4.375rem;
+    background: #a9a9a9;
+    border: solid black .05rem;
+}
