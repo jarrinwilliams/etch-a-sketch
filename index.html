@@ -6,17 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./main.css">
     <script src="./main.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <title>Etch-a-sketch</title>
 </head>
 <body>
     <div class="gameContainer">
         <div class="settingsContainer">
-            <button class="_16btn">16x16</button>
-            <button class="_64btn">64x64</button>
-            <button class="_100btn">100x100</button>
-            <button class="clearBtn">Clear</button>
+            <label class="btnLabel">16x16</label>
+            <button class="_16btn gridBtn btn"></button>
+            <label class="btnLabel">64x64</label>
+            <button class="_64btn gridBtn btn"></button>
+            <label class="btnLabel">100x100</label>
+            <button class="_100btn btn"></button>
+            <label class="btnLabel">Clear</label>
+            <button class="clearBtn btn"></button>
         </div>
-        <div class="sketchContainer"></div>
+        <div>
+            <h1 class="gameHeading">Etch-a-sketch</h1>
+            <div class="sketchContainer"></div>
+            <label class="btnLabel">Normal</label>
+            <button class="normalBtn btn"></button>
+            <label class="btnLabel">Rainbow</label>
+            <button class="rainbowBtn btn"></button>
+        </div> 
     </div>
 </body>
 </html>
